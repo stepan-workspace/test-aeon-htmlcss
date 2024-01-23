@@ -1,0 +1,110 @@
+/* Netbook */
+@media (max-width: 1024px){
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .intro__box {
+        width: 50%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px){
+    .intro__tile__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .products__tile__image_inner {
+        padding-left: 10px;
+    }
+    .products__tile__image img {
+        max-width: 100%;
+    }
+    .products__tile__item {
+        padding: 25px 20px 0 20px;
+    }
+    .products__tile__title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px){
+    .intro {
+        height: auto;
+    }
+    .intro__box__banner {
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+    }
+    .intro__tile {
+        position: relative;
+        margin: 0;
+        padding: 20px 0 30px 0;
+    }
+    .intro__banner {
+        text-align: right;
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: -30px;
+    }
+    .intro__tile__grid {
+        column-gap: 15px;
+    }
+    .intro__tile__descr {
+        font-size: 14px;
+    }
+    .intro__tile__item {
+        flex-direction: column-reverse;
+        padding: 18px;
+    }
+    .intro__tile__box_ico {
+        margin-top: -15px;
+        margin-bottom: 14px;
+    }
+    .products__tile__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .products__tile__item {
+        color: #29374E;
+    }
+    .profit {
+        flex-wrap: wrap;
+    }
+    .profit__info,
+    .profit__grid {
+        width: auto;
+    }
+    .profit__info {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .profit__info__title,
+    .profit__info__descr {
+        max-width: none;
+    }
+    .profit .btn_default {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .profit__tile__grid {
+        column-gap: 15px;
+    }
+    .profit__tile__item {
+        box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+        padding: 0px 7px 20px 20px;
+    }
+    .profit__tile__ico_bg {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 57px;
+        margin-top: -5px;
+    }
+    .profit__tile__ico {
+        font-size: 26px;
+        margin-right: -5px;
+    }
+}

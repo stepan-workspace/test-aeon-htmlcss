@@ -1,0 +1,46 @@
+/* Mobile */
+@media (max-width: 376px){
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .title_medium {
+        font-size: 24px;
+    }
+    .btn_default {
+        width: 100%;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .intro__box {
+        width: auto;
+    }
+    .intro__box__banner {
+        position: relative;
+        overflow: unset;
+    }
+    .intro__wrap > .flex {
+        flex-direction: column-reverse;
+    }
+    .intro__banner {
+        margin: 0;
+        max-height: 457px;
+        margin-left: -15px;
+    }
+    .intro__title {
+        font-size: 48px;
+        padding-top: 0;
+    }
+    .intro__descr {
+        font-size: 16px;
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+    .products__title {
+        max-width: 350px;
+    }
+    .profit__info__title,
+    .profit__info__descr {
+        margin-bottom: 10px;
+    }
+}
