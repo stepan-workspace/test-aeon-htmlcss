@@ -1,0 +1,15 @@
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd, ul, li {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
